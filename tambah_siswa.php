@@ -73,9 +73,9 @@ $wali_result = mysqli_query($koneksi, "SELECT * FROM wali_murid");
             <div class="mb-3">
                 <label for="id_wali" class="form-label">Wali Murid</label>
                 <select class="form-select" id="id_wali" name="id_wali" required>
-                <option value="1">Budi Santoso</option>
-                <option value="2">Siti Aminah</option>
-                <option value="3">Joko Widodo</option>
+                <option value="1">Maya Sari</option>
+                <option value="2">Lina Kumalasari</option>
+                <option value="3">Herman Susanto</option>
                 <option value="4">Dewi Lestari</option>
                 <option value="5">Ahmad Fauzi</option>
                 </select>
