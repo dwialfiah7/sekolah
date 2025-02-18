@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <label for="kontak" class="form-label">No. Telepon</label>
                 <input type="text" class="form-control" id="kontak" name="kontak" value="<?php echo $row['kontak']; ?>" required>
             </div>
-            <button type="submit" class="btn btn-success">Simpan</button>
+            <button type="submit" class="btn btn-success">Update</button>
             <a href="wali_murid.php" class="btn btn-secondary">Batal</a>
         </form>
     </div>

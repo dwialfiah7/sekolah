@@ -29,7 +29,7 @@ $wali_result = mysqli_query($koneksi, "SELECT * FROM wali_murid");
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tambah Siswa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -66,7 +66,8 @@ $wali_result = mysqli_query($koneksi, "SELECT * FROM wali_murid");
                 <select class="form-select" id="id_kelas" name="id_kelas" required>
                     <option value="1">X PPLG 1</option>
                     <option value="2">X PPLG 2</option>
-                    <option value="2">X Busana</option>
+                    <option value="3">X Busana</option>
+                    <option value="4">X Kuliner</option>
                 </select>
             </div>
             <div class="mb-3">
